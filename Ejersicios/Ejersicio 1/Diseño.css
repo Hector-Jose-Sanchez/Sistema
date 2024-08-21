@@ -1,40 +1,41 @@
-body{
-background-image: url(Fondo.jpg);
-
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyC_BXxRPmh8b7JWzkoEVePzNszRUSl6L3_Q&s');
+    background-size: cover;
 }
-.card{
-    background-color: orange;
+.profile_fondo {
+    width: 100%;
+    height: 200px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyeWy--PwLKZhDVFSD7JHXwy2c7e2d9CKoqg&s');
+    margin-top: 50px;
+    background-size: cover;
+}
+.user {
     width: 500px;
-    height:400px;
-    margin: 30% 30%;
+    height: 170px;
+    position: absolute;
+    top: 180px;
+    left: 200px;
+    background-size: cover;
+    background-color: transparent;
+    display: flex;
     
 }
-.card_imagen{
-    width: 150px;
-    border-radius: 50%;
-    margin-left: 35%;
-    margin-top: 20px;
-    
+.user_file {
+    width: 170px;
+    height: 170px;
+    border-left: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+    border-bottom-left-radius: 20px;
 }
-.card_descripcion{
-    color: rebeccapurple;
-    background-color: aqua;
-    font-family: sans-serif;
-    font-size:20px;
-    font-weight:300;
-    font-style: italic;
-    text-decoration: underline;
+.user_info {
+    width: 200px;
+    height: 70%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    color: blue;
+    margin: 30px;
     text-align: center;
-    text-transform: uppercase;
-}
-.card_texf{
-    background-color: brown;
-    height:40%;
-}
-.card_texto{
-    text-align: center;
-    margin: 5%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+    font-weight: 700;
+    font-size: 20px;
     
 }
