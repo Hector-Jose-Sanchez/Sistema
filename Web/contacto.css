@@ -41,16 +41,7 @@
   position: relative;
   color: inherit;
 }
-.link-button11 {
-  background-color: var(--color-gray-200);
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-5xs) var(--padding-base);
-  white-space: nowrap;
-}
+
 .button16 {
   text-decoration: none;
   position: relative;

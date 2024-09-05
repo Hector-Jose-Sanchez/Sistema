@@ -34,16 +34,7 @@
   width: 237px;
   align-items: flex-start;
 }
-.button {
-  margin-left: -14px;
-  text-decoration: none;
-  width: 197px;
-  position: relative;
-  color: inherit;
-  display: inline-block;
-  flex-shrink: 0;
-  white-space: nowrap;
-}
+
 .link,
 .link-container {
   display: flex;
@@ -54,30 +45,7 @@
   align-self: stretch;
   flex-direction: row;
 }
-.link-container {
-  width: 170px;
-  flex-direction: column;
-  padding: var(--padding-10xs) 0 0;
-  box-sizing: border-box;
-}
-.button1 {
-  text-decoration: none;
-  position: relative;
-  color: inherit;
-  display: inline-block;
-  min-width: 98px;
-}
-.link-container1,
-.link1 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.link-container1 {
-  flex-direction: column;
-  padding: var(--padding-10xs) 0 0;
-}
+
 .descubre-ms1 {
   text-decoration: none;
   position: relative;
@@ -112,7 +80,7 @@
   background-color: var(--color-white);
   overflow: hidden;
   padding: var(--padding-5xs) 0;
-  gap: 56px;
+  gap: 20px;
   text-align: center;
   font-size: var(--font-size-5xl);
   color: var(--color-black);
