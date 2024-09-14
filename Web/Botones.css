@@ -1,45 +1,25 @@
-.boton.seis {
-	background: none;
-	color: #000;
-}
 
-.boton.seis svg {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	fill: none;
+.container .menu{
+	float: right;
+	line-height: 100px;
 }
-
-.boton.seis rect {
-	width: 100%;
-	height: 100%;
-	stroke: rgb(241, 17, 174);
-	stroke-width: 10px;
-	stroke-dasharray: 1000;
-	stroke-dashoffset: 1000;
-	transition: .6s ease all;
+.container .menu a{
+	display: inline-block;
+	padding: 15px;
+	line-height: normal;
+	text-decoration: none;
+	color: rgb(67, 236, 67);
+	transition: all 0.3s ease;
+	border-bottom: 2px solid transparent;
+	font-size: 20px;
+	margin-right: 5px;
 }
-
-.boton.seis:hover rect {
-	stroke-dashoffset: 0;
+.container .menu a:hover{
+color: rgb(231, 56, 129);
+border-bottom: 2px solid #c7c7c7;
+padding-bottom: 5px;
 }
-.boton {
-	display: inline-flex;	
-	
-	border: none;
-	cursor: pointer;
-	transition: .3s ease all;
-	border-radius: 5px;
-	position: relative;
-	overflow: hidden;
-    padding: 14px;
-}
-
-.boton span {
-	position: relative;
-	z-index: 2;
-	transition: .3s ease all;
-	font-size: var(--font-size-2xl);
+.container .menu a:hover{
+	border-bottom: 2px solid yellow;
+	padding-bottom: 5px;
 }

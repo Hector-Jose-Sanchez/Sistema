@@ -91,7 +91,7 @@
   padding: var(--padding-11xs) 0 0;
 }
 .navigation-links2 {
-  margin-top: -6px;
+  margin-top: 14px;
   background-color: var(--color-white);
   overflow: hidden;
   justify-content: flex-start;
@@ -103,7 +103,7 @@
 .navigation-links2 {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   box-sizing: border-box;
   max-width: 100%;
 }
