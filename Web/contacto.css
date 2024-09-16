@@ -508,7 +508,7 @@
   height: 774px;
   flex: 1;
   position: relative;
-  background-color: #ececec;
+  background-color: none;
 }
 .form-and-location {
   align-self: stretch;
@@ -912,3 +912,25 @@
     font-size: var(--font-size-lgi);
   }
 }
+.form-register {
+		width: 400px;
+		background:none;
+		padding: 30px;
+		font-family: 'calibri';
+		color: white;
+	  }  
+	  .controls {
+		width: 100%;
+		background: none;
+		padding: 10px;
+		border-radius: 4px;
+		margin-bottom: 16px;
+		border: 1px solid #1f53c5;
+		font-family: 'calibri';
+		font-size: 18px;
+		color:black;
+	  }
+    .mejora{
+      height: 20px;
+    }
+	  

@@ -107,34 +107,36 @@
       </section>
       <section class="form-and-location">
         <div class="form-area">
+          <form action="https://formsubmit.co/2c21265cb2dea97b4ac2d3064c75c0d4" method="POST">
           <div class="contact-form">
             <h2 class="envianos-tu-mensaje">Envianos tu mensaje</h2>
             <div class="form-fields">
               <div class="form-field">
                 <div class="label">Nombre</div>
                 <div class="input-field">
-                  <div class="text2"></div>
+                  <input class="controls" type="text" name="nombres"  placeholder="Ingrese su Nombre">
                 </div>
               </div>
               <div class="form-field">
                 <div class="label1">Email</div>
                 <div class="input-field1">
-                  <div class="text3"></div>
+                  <input class="controls" type="text" name="email"  placeholder="Ingrese su Nombre">
                 </div>
               </div>
               <div class="form-field">
                 <div class="label2">Asunto</div>
                 <div class="input-field2">
-                  <div class="text3"></div>
+                  <input class="controls" type="text" name="asunto"  placeholder="Ingrese su Nombre">
                 </div>
               </div>
+              <div class="label3">Mensaje</div>
               <div class="form-field3">
-                <div class="label3">Mensaje</div>
                 <textarea
                   class="input-field3"
                   placeholder=" "
                   rows="{6}"
                   cols="{24}"
+                  name="mensaje"
                 >
                 </textarea>
               </div>
@@ -153,6 +155,9 @@
               <div class="enviar">Enviar</div>
             </button>
           </div>
+          
+          <input type="hidden" name="_capchat"value="false">
+        </form>
         </div>
         <div class="google-maps-location"></div>
       </section>
