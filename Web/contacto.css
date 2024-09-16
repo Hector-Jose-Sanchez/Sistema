@@ -510,6 +510,9 @@
   position: relative;
   background-color: none;
 }
+.mapa{
+  padding-top: 10%;
+}
 .form-and-location {
   align-self: stretch;
   background-color: var(--color-gainsboro-200);
