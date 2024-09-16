@@ -136,6 +136,7 @@
   font-size: inherit;
   font-weight: 600;
   font-family: inherit;
+  z-index: 2;
 }
 .sentirse-bien-es {
   margin: 0;
@@ -144,6 +145,7 @@
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-xl);
+  z-index: 2;
 }
 .hero-text-area-text-titl-parent {
   width: 413px;
@@ -153,6 +155,7 @@
   justify-content: flex-start;
   gap: var(--gap-xl);
   max-width: 100%;
+  z-index: 2;
 }
 .hero-images-child {
   align-self: stretch;
